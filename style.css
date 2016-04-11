@@ -1,69 +1,52 @@
-h1 {
-    font-size: 44px;
-}
-
-header {
-       overflow: hidden;
-       margin-bottom: 1em;
-       background-color: rgba(49, 79, 79, .5);
-       border-radius: 25px;
-
-}
-
-}
-
-p {
-    background-color: rgba(49, 79, 79, .5);
-    border-radius: 20px;
-    padding: 2px;
-    margin: 10px;
-    color: white;
-    text-shadow: 2px 2px #ff0000;
-}
-
- #pic {
-            margin: 1em;
-            float: left;
-            width: 100px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 2px black;
-            opacity: .6;
-      }
-           
-
-           
-footer {
-               text-align: center;
-               font-size: .08em;
-             position: absolute;
-            bottom: 0;
-            margin-left: 40%;
+           body {
+              background-color: #grey;
            }
-           
-body {
+
+           #leftpart {
                font-family: arial;
                text-align: center;
-               height: 100vh;
-               background: url("http://wallpapercave.com/wp/quYHEGK.jpg");
-               background-size: cover;
- }
- 
- #container {
-     height:100%;
-     position: relative;
-     background-color: rgba(49, 79, 79, .5);
-;
- }
- 
- #leftside {
-     float: left;
-     width: 45%;
-     text-shadow: .45px .45px navy;
- }
- 
- #rightside {
-     float: right;
-     width: 45%;
-     text-shadow: .5px .5px gray;
- }
- 
+               width: 50%;
+               position: absolute;
+
+           }
+
+           #rightpart {
+              position: relative;
+              float: right;
+              width: 500px;
+              height: 500px;
+              overflow: hidden;
+              margin-right: 40px;
+
+           }
+           
+           p {
+               line-height: 1.5;
+           }
+           
+           #pic, .little, .dog {
+               width: 120px;
+               height: 120px;
+               border-radius: 50%;
+               box-shadow: 2px 2px 2px black;
+               margin-right: 1em;
+               margin-left: 1em;
+           }
+           
+           footer {
+               text-align: center;
+               font-size: .08em;
+           }
+
+
+           #buttoncontainer {
+
+           }
+
+           .button {
+            border-radius: 10px;
+            background-color: rgba(232,232,238, .9);
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
+           }
