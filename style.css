@@ -7,6 +7,9 @@ header {
        margin-bottom: 1em;
        background-color: rgba(49, 79, 79, .5);
        border-radius: 25px;
+
+}
+
 }
 
 p {
@@ -16,18 +19,18 @@ p {
     margin: 10px;
     color: white;
     text-shadow: 2px 2px #ff0000;
-
 }
 
  #pic {
-               margin: 1em;
-               float: left;
-               width: 100px;
-               border-radius: 10px;
-               box-shadow: 2px 2px 2px black;
-               opacity: .6;
-           }
+            margin: 1em;
+            float: left;
+            width: 100px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 2px black;
+            opacity: .6;
+      }
            
+
            
 footer {
                text-align: center;
@@ -48,15 +51,19 @@ body {
  #container {
      height:100%;
      position: relative;
+     background-color: rgba(49, 79, 79, .5);
+;
  }
  
  #leftside {
      float: left;
-     width: 50%;
+     width: 45%;
+     text-shadow: .45px .45px navy;
  }
  
  #rightside {
      float: right;
-     width: 50%;
+     width: 45%;
+     text-shadow: .5px .5px gray;
  }
  
